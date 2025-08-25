@@ -16,32 +16,76 @@
 
 <body>
     <div>
-        <header>
-            <h1>Grupo Maxir</h1>
-            <!--Navbar-->
+        id="navbar-section" style="position: relative; z-index: 1000;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgba(0, 0, 0, 0.5);">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    GRUPO MAXIR
+                    <i class="bi bi-rocket-takeoff"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">¿Quiénes somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#actividades">Nuestro Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ubicacion">Lineas de Servicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#miembros">Soporte a Recursos Humanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#redes">Capacitacion Dinamica</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#email">Consultoria</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </section>
+        <!--Navbar
             <nav>
+                <img src="../img/logogpoMaxir.png" alt="Logo Grupo Maxir" class="logo">
                 <ul class="nav">
-                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#home">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
                 </ul>
-            </nav>
-        </header>
+            </nav>-->
+
 
         <main>
             <section id="home">
-                <h2>Welcome to Grupo Maxir</h2>
-                <p>Your trusted partner in business solutions.</p>
+                <h2>GRUPO MAXIR </h2>
+                <p>¿BUSCAS SOLUCIONES EFECTIVAS?</p>
             </section>
 
             <section id="about">
-                <h2>About Us</h2>
-                <p>Grupo Maxir is a leading company in providing innovative solutions to businesses worldwide.</p>
+                <h2>¿Quienes somos?</h2>
+                <p>A lo largo de más de 25 años, hemos formado un comprometido equipo de líderes altamente capacitados
+                    que han brindado apoyo a diversas organizaciones a través de nuestra completa gama de servicios de
+                    consultoría.
+                    Nuestro compromiso con la excelencia ha sido fundamental para impulsar el crecimiento y el éxito de
+                    cada proyecto.</p>
             </section>
 
             <section id="services">
-                <h2>Our Services</h2>
+                <h2>Nuestros servicios</h2>
                 <ul>
                     <li>Consulting</li>
                     <li>Technology Solutions</li>
@@ -50,10 +94,10 @@
             </section>
 
             <section id="contact">
-                <h2>Contact Us</h2>
+                <h2>Contactanos</h2>
                 <form>
                     <div class="mb-3">
-                        <label for="name" class="form-label">Name:</label>
+                        <label for="name" class="form-label">Nombre:</label>
                         <input type="text" id="name" name="name" class="form-control" required>
                     </div>
                     <div class="mb-3">
@@ -61,10 +105,10 @@
                         <input type="email" id="email" name="email" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label for="message" class="form-label">Message:</label>
+                        <label for="message" class="form-label">Mensaje:</label>
                         <textarea id="message" name="message" class="form-control" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
             </section>
         </main>
