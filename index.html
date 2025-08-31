@@ -66,99 +66,84 @@
 
         <main>
             <section id="home">
-                <!--Imagen del Hover-->
-                <img src="../img/fondoHome.jpg" alt="Fondo galaxia"
-                    style="position: absolute;left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
-
+                <!--Imagen de fondo ahora se gestiona por CSS-->
                 <div class="capa"></div>
-                <div class="container main-content" style="position: relative; z-index: 1;">
-                    <div class="row align-items-center">
-                        <!-- Columna de texto -->
-                        <div class="col-lg-6 text-white" data-aos="fade-right">
-                            <h1 class="display-4 fw-bold mb-3">GRUPO <span class="text-primary">MAXIR</span></h1>
-                            <p class="lead mb-4">¿BUSCAS SOLUCIONES EFECTIVAS?
-                            </p>
-                            <a href="#sobre" class="btn btn-lg btn-primary"
-                                style="display: block; width: 200px; margin: 0 auto;">Conócenos</a>
-                        </div>
-                        <!-- Columna de imagen-
-                    <div class="col-lg-6 text-center" data-aos="fade-left">
-                    <img src="../img/logogpoMaxir.png" alt="Telescopio en el cielo nocturno"
-                        class="img-fluid rounded shadow-lg" style="max-width: 90%;" />-->
-                    </div>
+                <div class="main-content">
+                    <h1 class="display-4 fw-bold mb-3">GRUPO <span class="text-primary">MAXIR</span></h1>
+                    <p class="lead mb-4"><span class="text-primary">¿BUSCAS SOLUCIONES EFECTIVAS?</span></p>
+                    <a href="#about" class="btn btn-lg btn-primary" style="width: 200px; margin: 0 auto;">Conócenos</a>
                 </div>
-    </div>
 
-    </section>
+            </section>
 
-    <section id="about">
-        <h2>¿Quienes somos?</h2>
-        <p>A lo largo de más de 25 años, hemos formado un comprometido equipo de líderes altamente capacitados
-            que han brindado apoyo a diversas organizaciones a través de nuestra completa gama de servicios de
-            consultoría.
-            Nuestro compromiso con la excelencia ha sido fundamental para impulsar el crecimiento y el éxito de
-            cada proyecto.</p>
-    </section>
+            <section id="about">
+                <h2>¿Quienes somos?</h2>
+                <p>A lo largo de más de 25 años, hemos formado un comprometido equipo de líderes altamente capacitados
+                    que han brindado apoyo a diversas organizaciones a través de nuestra completa gama de servicios de
+                    consultoría.
+                    Nuestro compromiso con la excelencia ha sido fundamental para impulsar el crecimiento y el éxito de
+                    cada proyecto.</p>
+            </section>
 
-    <section id="team">
-        <h2>Nuestro Team</h2>
-        <p>Contamos con un equipo diverso y talentoso que aporta una amplia gama de habilidades y experiencias
-            para abordar los desafíos de nuestros clientes desde múltiples perspectivas.</p>
-    </section>
+            <section id="team">
+                <h2>Nuestro Team</h2>
+                <p>Contamos con un equipo diverso y talentoso que aporta una amplia gama de habilidades y experiencias
+                    para abordar los desafíos de nuestros clientes desde múltiples perspectivas.</p>
+            </section>
 
-    <section id="services">
-        <h2>Nuestros servicios</h2>
-        <ul>
-            <li>Consulting</li>
-            <li>Technology Solutions</li>
-            <li>Customer Support</li>
-        </ul>
-    </section>
+            <section id="services">
+                <h2>Nuestros servicios</h2>
+                <ul>
+                    <li>Consulting</li>
+                    <li>Technology Solutions</li>
+                    <li>Customer Support</li>
+                </ul>
+            </section>
 
-    <section id="sRH">
-        <h2>Soporte RH</h2>
-        <p>Ofrecemos soluciones integrales de soporte en recursos humanos para optimizar la gestión del talento
-            y mejorar el desempeño organizacional.</p>
-    </section>
+            <section id="sRH">
+                <h2>Soporte RH</h2>
+                <p>Ofrecemos soluciones integrales de soporte en recursos humanos para optimizar la gestión del talento
+                    y mejorar el desempeño organizacional.</p>
+            </section>
 
-    <section id="cd">
-        <h2>Capacitación Dinámica</h2>
-        <p>Nuestros programas de capacitación dinámica están diseñados para fomentar el aprendizaje interactivo
-            y práctico, impulsando el desarrollo de habilidades clave en un entorno colaborativo.</p>
-    </section>
+            <section id="cd">
+                <h2>Capacitación Dinámica</h2>
+                <p>Nuestros programas de capacitación dinámica están diseñados para fomentar el aprendizaje interactivo
+                    y práctico, impulsando el desarrollo de habilidades clave en un entorno colaborativo.</p>
+            </section>
 
-    <section id="consulting">
-        <h2>Consultoría</h2>
-        <p>Nuestros servicios de consultoría están orientados a proporcionar soluciones estratégicas y
-            personalizadas que aborden los desafíos específicos de cada cliente, impulsando su crecimiento y
-            éxito a largo plazo.</p>
-    </section>
+            <section id="consulting">
+                <h2>Consultoría</h2>
+                <p>Nuestros servicios de consultoría están orientados a proporcionar soluciones estratégicas y
+                    personalizadas que aborden los desafíos específicos de cada cliente, impulsando su crecimiento y
+                    éxito a largo plazo.</p>
+            </section>
 
-    <section id="contact">
-        <h2>Contactanos</h2>
-        <form>
-            <div class="mb-3">
-                <label for="name" class="form-label">Nombre:</label>
-                <input type="text" id="name" name="name" class="form-control" required>
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email:</label>
-                <input type="email" id="email" name="email" class="form-control" required>
-            </div>
-            <div class="mb-3">
-                <label for="message" class="form-label">Mensaje:</label>
-                <textarea id="message" name="message" class="form-control" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-    </section>
-    </main>
+            <section id="contact">
+                <h2>Contactanos</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre:</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mensaje:</label>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </section>
+        </main>
 
 
-    <!--Footer opcional-->
-    <footer class="text-center mt-4">
-        <p>&copy; 2024 Grupo Maxir. All rights reserved.</p>
-    </footer>
+        <!--Footer opcional-->
+        <footer class="text-center mt-4">
+            <p>&copy; 2024 Grupo Maxir. All rights reserved.</p>
+        </footer>
     </div>
 
 </body>
