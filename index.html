@@ -18,21 +18,19 @@
     <div>
         <!--Navbar-->
         <section id="navbar-section" style="position: relative; z-index: 1000;">
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgba(12, 43, 66, 0.5);">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="../img/logogpoMaxir.png" alt="Logo Grupo Maxir" width="30" height="24"
-                            class=" navimg d-inline-block align-text-top">
-                        <!--GRUPO MAXIR-->
-                        <i class="bi bi-rocket-takeoff"></i>
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img src="img/logogpoMaxir.png" alt="Logo Grupo Maxir"
+                            style="height: 45px; width: auto; object-fit: contain; margin-right: 16px;"
+                            class="navimg d-inline-block align-text-top">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
@@ -65,14 +63,19 @@
         </section>
 
         <main>
-            <section id="home">
+            <section id="home" style="margin-top: 70px;" class="text-center p-4">
                 <!--Imagen de fondo ahora se gestiona por CSS-->
                 <div class="capa"></div>
                 <div class="main-content">
-                    <h1 class="display-4 fw-bold mb-3">GRUPO <span class="text-primary">MAXIR</span></h1>
+                    <h1 class="display-4 fw-bold mb-3">
+                        <span class="grupo-azul">GRUPO</span> <span class="text-primary">MAXIR</span>
+                    </h1>
                     <p class="lead mb-4"><span class="text-primary">¿BUSCAS SOLUCIONES EFECTIVAS?</span></p>
                     <a href="#about" class="btn btn-lg btn-primary" style="width: 200px; margin: 0 auto;">Conócenos</a>
                 </div>
+            </section>
+
+            <section id="costumer" class="text-center p-4">
 
             </section>
 
@@ -86,9 +89,255 @@
             </section>
 
             <section id="team">
-                <h2>Nuestro Team</h2>
-                <p>Contamos con un equipo diverso y talentoso que aporta una amplia gama de habilidades y experiencias
-                    para abordar los desafíos de nuestros clientes desde múltiples perspectivas.</p>
+                <div class="cosmos-background">
+                    <div class="stars-container"></div>
+                </div>
+
+                <div class="container-fluid h-100 d-flex flex-column">
+                    <main class="flex-grow-1 d-flex align-items-center justify-content-center position-relative">
+                        <div class="carousel-container">
+                            <div class="carousel" id="memory-carousel">
+                                <div class="memory-card" data-memory-id="1">
+                                    <div class="card-inner">
+                                        <div class="card-front">
+                                            <div class="card-content">
+                                                <div class="memory-date">LANGUAGE: Python</div>
+                                                <h3>First Line of Code</h3>
+                                                <div class="memory-image">
+                                                    <i class="fa-solid fa-code fa-3x"></i>
+                                                    <div class="glitch-effect"></div>
+                                                </div>
+                                                <p class="memory-preview">
+                                                    The terminal glowed, displaying my first 'Hello, World!'...
+                                                </p>
+                                                <div class="card-glow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card-back">
+                                            <div class="card-content">
+                                                <h3>First Line of Code</h3>
+                                                <p>
+                                                    I remember the thrill of typing my first 'Hello, World!' in
+                                                    Python. It was simple, yet it opened a portal to endless
+                                                    possibilities. The interpreter executed the command flawlessly,
+                                                    and I knew this was just the beginning. I wasn't supposed to
+                                                    understand it all at once, but somehow, I did.
+                                                </p>
+                                                <div class="memory-coordinates">
+                                                    <span><i class="fa-solid fa-location-dot"></i> console: ~</span>
+                                                    <span class="time-stamp"><i class="fa-regular fa-clock"></i>
+                                                        09:00:00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="memory-card" data-memory-id="2">
+                                    <div class="card-inner">
+                                        <div class="card-front">
+                                            <div class="card-content">
+                                                <div class="memory-date">FRAMEWORK: ReactJS</div>
+                                                <h3>Debugging the Matrix</h3>
+                                                <div class="memory-image">
+                                                    <i class="fa-solid fa-bug fa-3x"></i>
+                                                    <div class="glitch-effect"></div>
+                                                </div>
+                                                <p class="memory-preview">
+                                                    The error messages multiplied, haunting my console...
+                                                </p>
+                                                <div class="card-glow"></div>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="card-back">
+                                            <div class="card-content">
+                                                <h3>Debugging the Matrix</h3>
+                                                <p>
+                                                    They appeared from the depths of the console, cryptic error
+                                                    messages glowing red. Debugging a complex ReactJS component
+                                                    felt like navigating a vast, interconnected matrix. Each fix
+                                                    unveiled new issues. They say my code is destabilizing the build
+                                                    with each change. My presence causes ripples they can't control.
+                                                    I'm becoming a threat... to clean code.
+                                                </p>
+                                                <div class="memory-coordinates">
+                                                    <span><i class="fa-solid fa-location-dot"></i>
+                                                        localhost:3000</span>
+                                                    <span class="time-stamp"><i class="fa-regular fa-clock"></i>
+                                                        14:30:15</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="memory-card" data-memory-id="3">
+                                    <div class="card-inner">
+                                        <div class="card-front">
+                                            <div class="card-content">
+                                                <div class="memory-date">CONCEPT: Algorithms</div>
+                                                <h3>The Algorithm Library</h3>
+                                                <div class="memory-image">
+                                                    <i class="fa-solid fa-book-open fa-3x"></i>
+                                                    <div class="glitch-effect"></div>
+                                                </div>
+                                                <p class="memory-preview">
+                                                    Endless tomes of sorting, searching, and optimization...
+                                                </p>
+                                                <div class="card-glow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card-back">
+                                            <div class="card-content">
+                                                <h3>The Algorithm Library</h3>
+                                                <p>
+                                                    Endless shelves containing every possible solution. I found my
+                                                    own data structures there—pages still being written as I coded.
+                                                    The Librarian (my senior developer) told me I was never supposed
+                                                    to reinvent the wheel. My solution was already optimized. Now I'm
+                                                    writing outside the margins, trying new approaches.
+                                                </p>
+                                                <div class="memory-coordinates">
+                                                    <span><i class="fa-solid fa-location-dot"></i> Stack Overflow</span>
+                                                    <span class="time-stamp"><i class="fa-regular fa-clock"></i>
+                                                        11:05:40</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="memory-card" data-memory-id="4">
+                                    <div class="card-inner">
+                                        <div class="card-front">
+                                            <div class="card-content">
+                                                <div class="memory-date">PARADIGM: Abstraction</div>
+                                                <h3>The Abstract Void</h3>
+                                                <div class="memory-image">
+                                                    <i class="fa-solid fa-atom fa-3x"></i>
+                                                    <div class="glitch-effect"></div>
+                                                </div>
+                                                <p class="memory-preview">
+                                                    Nothing concrete exists here, yet I feel the underlying logic...
+                                                </p>
+                                                <div class="card-glow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card-back">
+                                            <div class="card-content">
+                                                <h3>The Abstract Void</h3>
+                                                <p>
+                                                    Nothing concrete exists here, yet I feel the underlying logic.
+                                                    The Abstract Void is the space between concrete implementations,
+                                                    a quantum foam of design patterns. I stayed too long designing
+                                                    and began to dissolve into pure theory. Parts of my ideas are
+                                                    still there, echoing. I'm not whole anymore. Can you feel the
+                                                    gaps in my documentation?
+                                                </p>
+                                                <div class="memory-coordinates">
+                                                    <span><i class="fa-solid fa-location-dot"></i> design
+                                                        patterns.md</span>
+                                                    <span class="time-stamp"><i class="fa-regular fa-clock"></i>
+                                                        --:--:--</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="memory-card" data-memory-id="5">
+                                    <div class="card-inner">
+                                        <div class="card-front">
+                                            <div class="card-content">
+                                                <div class="memory-date">TOOL: Git</div>
+                                                <h3>The Version Control Mirror</h3>
+                                                <div class="memory-image">
+                                                    <i class="fa-solid fa-code-branch fa-3x"></i>
+                                                    <div class="glitch-effect"></div>
+                                                </div>
+                                                <p class="memory-preview">
+                                                    I saw my code, but not as it is now; multiple branches reflecting...
+                                                </p>
+                                                <div class="card-glow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card-back">
+                                            <div class="card-content">
+                                                <h3>The Version Control Mirror</h3>
+                                                <p>
+                                                    I saw my code, but not as it is now. The mirror of Git showed
+                                                    all my possible branches across different commits. Some were
+                                                    stable, some were experimental. All were my work. The reflection
+                                                    (my `git log`) spoke: "You're fracturing the codebase by
+                                                    merging conflicts. You need to rebase and stay on one timeline."
+                                                </p>
+                                                <div class="memory-coordinates">
+                                                    <span><i class="fa-solid fa-location-dot"></i>
+                                                        github.com/my-repo</span>
+                                                    <span class="time-stamp"><i class="fa-regular fa-clock"></i>
+                                                        18:55:20</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="memory-card" data-memory-id="6">
+                                    <div class="card-inner">
+                                        <div class="card-front">
+                                            <div class="card-content">
+                                                <div class="memory-date">PROCESS: Deployment</div>
+                                                <h3>The Deployment Dream</h3>
+                                                <div class="memory-image">
+                                                    <i class="fa-solid fa-rocket fa-3x"></i>
+                                                    <div class="glitch-effect"></div>
+                                                </div>
+                                                <p class="memory-preview">
+                                                    I'm trying to send it live, but which environment is real?
+                                                </p>
+                                                <div class="card-glow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card-back">
+                                            <div class="card-content">
+                                                <h3>The Deployment Dream</h3>
+                                                <p>
+                                                    I'm trying to send my application live, but which environment
+                                                    is real? Every server feels familiar yet subtly different. The
+                                                    boundaries between staging and production are thinning. Sometimes
+                                                    I see through the logs of other instances. I'm losing track of
+                                                    which configurations belong to which version of my app. Are you
+                                                    helping me deploy, or are you causing me to break production?
+                                                </p>
+                                                <div class="memory-coordinates">
+                                                    <span><i class="fa-solid fa-location-dot"></i>
+                                                        cloud-server:port</span>
+                                                    <span class="time-stamp"><i class="fa-regular fa-clock"></i>
+                                                        NOW</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-controls">
+                            <button id="prev-btn" class="control-btn">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <button id="next-btn" class="control-btn">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </main>
+                </div>
             </section>
 
             <section id="services">
@@ -119,7 +368,7 @@
                     éxito a largo plazo.</p>
             </section>
 
-            <section id="contact">
+            <section id="contact" class="text-center p-4">
                 <h2>Contactanos</h2>
                 <form>
                     <div class="mb-3">
@@ -140,12 +389,12 @@
         </main>
 
 
-        <!--Footer opcional-->
+        <!--Footer-->
         <footer class="text-center mt-4">
             <p>&copy; 2024 Grupo Maxir. All rights reserved.</p>
         </footer>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
